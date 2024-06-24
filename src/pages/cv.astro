@@ -1,0 +1,26 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ThemeToggle from '@/components/theme-toggle.tsx';
+import Header from '@/components/header.astro';
+import Footer from '@components/footer.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<ThemeToggle client:load />
+	<div class="w-wrapper min-h-screen flex flex-col">
+		<Header />
+		<div class="flex flex-1 z-0 mx-5 w-full">
+      <!-- Blogs -->
+      <div class="leading-relaxed space-y-3 text-justify text-light-text dark:text-dark-text w-full">
+        <h1 class="text-title text-xl font-bold">CV</h1>
+        <p>Hey, I lay out my journey, experiences, and skills, all with a laid-back vibe. Dive in and get to know a bit about what I've been up to and the cool stuff I've been involved in.</p>
+        <div class="sm:py-20 py-10 -rotate-12">
+          <div class="border-b border-light-text dark:border-dark-text w-2/3 mx-auto"> </div>
+          <p class="text-center py-3">Coming soon!</p>
+          <div class="border-b border-light-text dark:border-dark-text w-2/3 mx-auto"> </div>
+        </div>
+      </div>
+		</div>
+    <Footer />
+  </div>
+</Layout>
