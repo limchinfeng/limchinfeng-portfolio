@@ -1,0 +1,28 @@
+---
+const currentPath = Astro.url.pathname;
+
+const isActive = (path: string) => {
+  if (path === '/') {
+    return currentPath === path;
+  } else {
+    return currentPath.startsWith(path) && currentPath !== '/';
+  }
+};
+---
+
+<nav class="my-10 flex items-center justify-center overflow-x-auto">
+  <ul class="border border-light-text dark:border-dark-border text-light-text dark:text-dark-text rounded-full px-5 py-2 flex gap-4 header">
+    <li class={`cursor-pointer hover:text-light-hover dark:hover:text-dark-hover transition ${isActive('/') ? 'text-title' : ''}`}>
+      <a href="/">Home</a>
+    </li>
+    <li class={`cursor-pointer hover:text-light-hover dark:hover:text-dark-hover transition ${isActive('/project') ? 'text-title' : ''}`}>
+      <a href="/project">Project</a>
+    </li>
+    <li class={`cursor-pointer hover:text-light-hover dark:hover:text-dark-hover transition ${isActive('/blog') ? 'text-title' : ''}`}>
+      <a href="/blog">Blog</a>
+    </li>
+    <li class={`cursor-pointer hover:text-light-hover dark:hover:text-dark-hover transition ${isActive('/cv') ? 'text-title' : ''}`}>
+      <a href="/cv">CV</a>
+    </li>
+  </ul>
+</nav>

@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 
-body * {
+body {
   @apply transition-colors duration-200;
 }
 
-:root {
+/* :root {
   --accent: 136, 58, 234;
   --accent-light: 224, 204, 250;
   --accent-dark: 49, 10, 101;
@@ -19,7 +19,7 @@ body * {
     rgb(var(--accent-light)) 30%,
     white 60%
   );
-}
+} */
 
 html {
   font-family: 'Coda', system-ui, sans-serif;
@@ -45,7 +45,7 @@ code {
 }
 
 .w-wrapper {
-  max-width: 1441px;
+  max-width: 1000px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
