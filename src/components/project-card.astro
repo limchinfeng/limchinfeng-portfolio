@@ -1,0 +1,32 @@
+---
+export interface Project {
+  title: string;
+  description: string;
+  image: string;
+  tags: string[];
+  html?: string;
+  link?: string;
+}
+
+const { title, description, image, tags, html, link } = Astro.props as Project;
+---
+
+<div class="flex flex-col sm:flex-row items-center p-5 gap-5 bg-light-pale dark:bg-dark-pale text-light-text dark:text-dark-text leading-relaxed">
+  <img src={image} alt={title} draggable="false" class="w-28 h-28 object-contain rounded-full" />
+  <div class="flex-1">
+    <h2 class="text-lg font-bold pb-2">{title}</h2>
+    <p>{description}</p>
+    <div class="mb-4">
+      {html && <p set:html={html}></p>}
+    </div>
+    <div class="flex flex-wrap gap-1">
+      {tags.map(tag => (
+        <span class="text-sm border border-light-text dark:border-dark-text px-1 py-[2px] bg-dark-background text-dark-text rounded-sm">{tag}</span>
+      ))}
+    </div>
+    {link && <div class="mt-5">
+      <a href={link} target="_blank" class="text-sm hover:text-light-hover dark:hover:text-dark-hover border border-light-text dark:border-dark-text hover:border-light-hover dark:hover:border-dark-hover transition py-2 px-4">View Project</a>
+      </div>
+      }
+  </div>
+</div>

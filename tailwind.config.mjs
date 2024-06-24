@@ -10,9 +10,9 @@ export default {
       colors: {
         title: "#0090C1",
         light: {
-          background: "#F7FFFC",
+          background: "#EEEEEE",
           text: "#383838",
-          pale: "#D7D7D7",
+          pale: "#E5E5E5",
           hover: "#004D89",
         },
         dark: {

@@ -1,0 +1,63 @@
+---
+import {projects} from '@data/projects'
+import ProjectCard from '@components/project-card.astro';
+
+const home_project = projects.slice(0, 3);
+---
+
+<div class="flex flex-col flex-1 gap-12 w-full text-light-text dark:text-dark-text relative z-0">
+  <!-- About Me -->
+  <div class="leading-relaxed space-y-3 text-justify">
+    <h1 class="text-title text-xl font-bold">About Me</h1>
+    <p>Hey there! I'm a software engineering student at USM. I'm into both frontend and backend development, and I have a thing for AI too. One day, I hope to dive into the world of DevOps.</p>
+    <p>When I'm not buried in code, you'll find me laughing at memes, catching 'em all in Pokémon, or enjoying some quality nap time.</p>
+    <p>Check out my projects and see what I've been up to. Let's connect and maybe even collaborate on something cool!</p>
+  </div>
+
+  <!-- Tech Stack -->
+  <div class="leading-relaxed space-y-3 text-justify">
+    <h1 class="text-title text-xl font-bold">Tech Stack</h1>
+    <p>Here's the lowdown on the tech I play with during my work and school assignments:</p>
+    <div class="grid grid-cols-2 gap-2">
+      <p class="inline-flex items-center gap-2"><i class="devicon-laravel-original text-lg"></i>Laravel</p>
+      <p class="inline-flex items-center gap-2"><i class="devicon-astro-plain text-lg"></i>Astro</p>
+      <p class="inline-flex items-center gap-2"><i class="devicon-typescript-plain"></i>TypeScript</p>
+      <p class="inline-flex items-center gap-2"><i class="devicon-python-plain"></i>Python</p>
+      <p class="inline-flex items-center gap-2"><i class="devicon-react-plain"></i>React</p>
+      <p class="inline-flex items-center gap-2"><i class="devicon-docker-plain"></i>Docker</p>
+      <p class="inline-flex items-center gap-2"><i class="devicon-nextjs-plain"></i>NextJS</p>
+      <p class="inline-flex items-center gap-2"><i class="devicon-cplusplus-plain"></i>C++</p>
+    </div>
+  </div>
+
+  <!-- Project -->
+  <div class="leading-relaxed space-y-3 text-justify">
+    <h1 class="text-title text-xl font-bold">Project</h1>
+    <p>These are some of my latest work. Check out the cool projects I've been working on recently!</p>
+    <div class="pt-3 space-y-5">
+      {home_project.map(project => (
+        <ProjectCard {...project} />
+      ))}
+    </div>
+    <div class="text-center pt-2">
+      <a href="/project" class="cursor-pointer hover:text-light-hover dark:hover:text-dark-hover transition">View More<i class="fa-solid fa-arrow-right ml-2"></i></a>
+    </div>
+  </div>
+
+  <!-- Blogs -->
+  <div class="leading-relaxed space-y-3 text-justify">
+    <h1 class="text-title text-xl font-bold">Blogs</h1>
+    <p>Here, I share my thoughts on anything based on my mood hehe.</p>
+    <div class="sm:py-20 py-10 -rotate-12">
+      <div class="border-b border-light-text dark:border-dark-text w-2/3 mx-auto"> </div>
+      <p class="text-center py-3">Coming soon!</p>
+      <div class="border-b border-light-text dark:border-dark-text w-2/3 mx-auto"> </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="leading-relaxed space-y-3 text-justify">
+    <h1 class="text-title text-xl font-bold">Contact Me</h1>
+    <p>Got a question or just want to say hi? Feel free to drop me a message on <a class="underline hover:text-light-hover dark:hover:text-dark-hover transition" href="https://www.linkedin.com/in/lim-chin-feng/" target="_blank">LinkedIn</a> or <a class="underline hover:text-light-hover dark:hover:text-dark-hover transition" href="https://www.instagram.com/limchinfeng/" target="_blank">Instagram</a>. I`d love to hear from you and chat about anything from tech to memes!</p>
+  </div>
+</div>
