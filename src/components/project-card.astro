@@ -21,7 +21,7 @@ const { title, description, image, tags, html, link } = Astro.props as Project;
     </div>
     <div class="flex flex-wrap gap-1">
       {tags.map(tag => (
-        <span class="text-sm border border-light-text dark:border-dark-text px-1 py-[2px] bg-dark-background text-dark-text rounded-sm">{tag}</span>
+        <span class="text-sm border border-light-text dark:border-dark-border px-1 py-[2px] bg-dark-background text-dark-text rounded-sm">{tag}</span>
       ))}
     </div>
     {link && <div class="mt-5">

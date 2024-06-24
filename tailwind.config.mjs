@@ -20,7 +20,7 @@ export default {
           text: "#E2E2E2",
           pale: "#3A3A3D",
           hover: "#90DDF0",
-          border: "#9CA3AF",
+          border: "#666666",
         },
       },
     },
