@@ -1,0 +1,22 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ThemeToggle from '@/components/theme-toggle.tsx';
+import Header from '@/components/header.astro';
+import Footer from '@components/footer.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<ThemeToggle client:load />
+	<div class="w-wrapper min-h-screen flex flex-col">
+		<Header />
+		<div class="flex flex-col flex-1 justify-center items-center z-0 mx-5 leading-relaxed space-y-3 text-justify text-light-text dark:text-dark-text">
+      <!-- CV -->
+        <h1 class="text-title text-xl font-bold">Oops! Page Not Found</h1>
+        <p class="">It seems like you've reached a page that doesn't exist. No worries, let's get you back on track.</p>
+        <p class="pt-10">
+          <a href="/" class="hover:text-light-hover dark:hover:text-dark-hover border border-light-text dark:border-dark-text hover:border-light-hover dark:hover:border-dark-hover transition py-2 px-4">Go To Home</a>
+        </p>
+		</div>
+    <Footer />
+  </div>
+</Layout>
