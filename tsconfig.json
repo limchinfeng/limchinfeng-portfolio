@@ -8,6 +8,7 @@
       "@assets/*": ["public/assets/*"],
       "@data/*": ["src/data/*"],
       "@/*": ["src/*"],
+      "@public/*": ["public/*"],
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"
