@@ -1,10 +1,8 @@
-import { LINKS_PLACEHOLDER } from "node_modules/astro/dist/content/consts";
-
 export const projects = [
   {
     title: "Automated Testing - Laravel Dusk & Selenium",
     description: "Dived into PHP automated testing and whipped up some simple docs on setting up and using Laravel Dusk and Selenium. Check out the setup and links for two test cases!",
-    image: "/image/index/automated-testing.svg",
+    image: "automated-testing",
     tags: ["Laravel", "php", "Automated Testing"],
     html:  `<a class="underline cursor-pointer hover:text-light-hover dark:hover:text-dark-hover transition text-title" href="https://docs.google.com/document/d/1XTw3KhSLihczlayC-6ZxDfXLleHW0ysLHNhK0AAoAyk/edit?usp=sharing" target="_blank">Laravel Dusk</a> 
             - 

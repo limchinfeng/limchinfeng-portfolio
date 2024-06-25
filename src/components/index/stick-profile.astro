@@ -1,10 +1,11 @@
 ---
-
+import { Image } from "astro:assets";
+import profilePicture from "/public/image/profile-picture.jpg";
 ---
 
 <div class="flex flex-col text-light-text dark:text-dark-text w-full sm:w-1/4 sm:sticky sm:h-fit sm:top-10 mb-5 sm:mb-0">
-  <img 
-    src="/public/image/profile-picture.jpg"
+  <Image 
+    src={profilePicture}
     alt="supershuaifeng"
     class="w-20 h-auto rounded-full mb-5"
     draggable="false"
