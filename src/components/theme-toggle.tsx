@@ -25,7 +25,8 @@ const ThemeToggle = () => {
 
   return (
     <div onClick={toggleTheme} className="fixed bottom-5 left-5 flex items-center justify-center z-20 cursor-pointer border border-light-text dark:border-dark-text w-12 h-12 p-2 rounded-full shadow-md shadow-light-text/80 dark:shadow-dark-text/60 bg-light-background dark:bg-dark-background">
-      <i className={`fa-solid ${theme === "dark" ? 'fa-sun text-dark-text' : 'fa-moon text-light-text'} text-2xl`}></i>
+      <i id='sun' className="fa-solid fa-sun dark:text-dark-text text-light-text hidden text-2xl dark:block"></i>
+      <i id='moon' className="fa-solid fa-moon dark:text-dark-text text-light-text block dark:hidden text-2xl"></i>
     </div>
   );
 };
