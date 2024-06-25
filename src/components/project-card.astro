@@ -1,19 +1,20 @@
 ---
+import { Image } from "astro:assets";
+
 export interface Project {
   title: string;
   description: string;
-  image: string;
+  image: any;
   tags: string[];
   html?: string;
   link?: string;
 }
 
 const { title, description, image, tags, html, link } = Astro.props as Project;
-
 ---
 
 <div class="flex flex-col sm:flex-row items-center p-5 gap-5 bg-light-pale dark:bg-dark-pale text-light-text dark:text-dark-text leading-relaxed">
-  <img src={image} alt={title} draggable="false" class="w-28 h-28 object-cover rounded-full" />
+  <Image src={image} alt={title} draggable="false" class="w-28 h-28 object-contain rounded-full" />
   <div class="flex-1">
     <h2 class="text-lg font-bold pb-2">{title}</h2>
     <p>{description}</p>

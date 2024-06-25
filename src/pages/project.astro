@@ -5,6 +5,18 @@ import Header from '@/components/header.astro';
 import ProjectCard from '@components/project-card.astro';
 import Footer from '@components/footer.astro';
 import {projects} from '@data/projects'
+
+
+import automatedTesting from '@public/image/index/automated-testing.png';
+import hackEclipse from '@public/image/index/HackEclipse.png';
+import internify from '@public/image/index/internify.png';
+import ecommerce from '@public/image/index/e-commerce.png';
+import therapist from '@public/image/index/therapist.png';
+import trustay from '@public/image/index/trustay.png';
+import research from '@public/image/index/research.png';
+import pixelusm from '@public/image/index/pixelusm.png';
+
+const project_images = [automatedTesting, hackEclipse, internify, ecommerce, therapist, trustay, research, pixelusm];
 ---
 
 <Layout title="Project | limchinfeng">
@@ -17,8 +29,8 @@ import {projects} from '@data/projects'
         <h1 class="text-title text-xl font-bold">Project</h1>
         <p>These are some of my latest work. Check out the cool projects I've been working on recently!</p>
         <div class="pt-3 space-y-5">
-          {projects.map(project => (
-            <ProjectCard {...project} />
+          {projects.map((project, index) => (
+            <ProjectCard {...project} image={project_images[index]}/>
           ))}
         </div>
       </div>
