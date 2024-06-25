@@ -23,6 +23,12 @@ export const projects = [
     tags: ["Fullstack", "NextJS", "React", "Typescript", "MongoDB", "Tailwind CSS"],
   },
   {
+    title: "Laravel E-commerce",
+    description: "An e-commerce project developed to learn the Laravel framework. It allows users to order food, manage a shopping cart, and make payments with automated receipt generation, while administrators can track and update order statuses in real-time.",
+    image: "/image/index/e-commerce.svg",
+    tags: ["Fullstack", "Laravel", "JQuery", "MySQL", "Tailwind CSS"],
+  },
+  {
     title: "Static Website - Therapist Portfolio",
     description: "My very first responsive static portfolio website using Next.js and React.js. Designed the UI in Figma. Simple, but it`s my first website and I'm proud of it!",
     image: "/image/index/therapist.svg",
