@@ -20,7 +20,7 @@ export const projects = [
     tags: ["Fullstack", "NextJS", "React", "Typescript", "MongoDB", "Tailwind CSS"],
   },
   {
-    title: "Laravel E-commerce",
+    title: "Laravel Food Ordering E-commerce",
     description: "An e-commerce project developed to learn the Laravel framework. It allows users to order food, manage a shopping cart, and make payments with automated receipt generation, while administrators can track and update order statuses in real-time.",
     tags: ["Fullstack", "Laravel", "JQuery", "MySQL", "Tailwind CSS"],
   },
