@@ -3,6 +3,8 @@ import Layout from '@/layouts/Layout.astro';
 import ThemeToggle from '@/components/theme-toggle.tsx';
 import Header from '@/components/header.astro';
 import Footer from '@components/footer.astro';
+
+import {CVWorkingExperiences} from '@data/cv'
 ---
 
 <Layout title="CV | limchinfeng">
@@ -12,12 +14,78 @@ import Footer from '@components/footer.astro';
 		<div class="flex flex-1 z-0 w-full">
       <!-- CV -->
       <div class="leading-relaxed space-y-3 text-justify text-light-text dark:text-dark-text mx-5 w-full">
-        <h1 class="text-title text-xl font-bold">CV</h1>
-        <p>Hey, I lay out my journey, experiences, and skills, all with a laid-back vibe. Dive in and get to know a bit about what I've been up to and the cool stuff I've been involved in.</p>
-        <div class="sm:py-20 py-10 -rotate-12 w-full mx-auto">
-          <div class="border-b border-light-text dark:border-dark-text w-2/3 mx-auto"> </div>
-          <p class="text-center py-3">Coming soon!</p>
-          <div class="border-b border-light-text dark:border-dark-text w-2/3 mx-auto"> </div>
+        <div class="flex flex-row justify-between items-center pb-2">
+          <h1 class="text-title text-xl font-bold">CV</h1>
+          <!-- <a href="/file/limchinfeng_cv.pdf" target="_blank" class="text-dark-text py-2 px-6 bg-title dark:hover:bg-dark-hover dark:hover:text-dark-pale hover:bg-light-hover transition rounded-lg">Download<i class="fa-solid fa-file-arrow-down ml-2"></i></a> -->
+        </div>
+        <div class="relative z-10">
+          <!-- Background Colour -->
+          <div class="absolute bg-title h-28 md:h-[7.2rem] w-full top-0 z-0">
+            <div class="hidden pl-52 md:flex flex-col justify-end h-full pb-2 text-white">
+              <h1 class="text-4xl font-bold leading-relaxed">Lim Chin Feng</h1>
+              <p>Software Engineering Student @ USM</p>
+            </div>
+          </div>
+
+          <!-- Personal Information -->
+          <div class="relative z-10 pt-4 md:px-6 md:pt-10 flex md:flex-row flex-col md:items-end items-center">
+            <img src="/image/profile-picture.jpg" alt="limchinfeng" draggable="false" class="bg-light-background dark:bg-dark-background p-1 w-36 object-contain aspect-square rounded-full" />
+            <div class="md:hidden flex flex-col text-center">
+              <h1 class="text-2xl font-bold leading-relaxed">Lim Chin Feng</h1>
+              <p>Software Engineering Student @ USM</p>
+            </div>
+            <div class="md:pl-5 flex-1 pt-4">
+              <ul class="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col lg:gap-2 gap-2">
+                <li>
+                  <a href="mailto:limchinfeng.work@gmail.com" target="_blank">
+                    <span class="hover:text-light-hover dark:hover:text-dark-hover transition"><i class="fa-solid fa-envelope mr-2"></i></i></i>limchinfeng.work@gmail.com</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/limchinfeng" target="_blank">
+                    <span class="hover:text-light-hover dark:hover:text-dark-hover transition underline"><i class="fa-brands fa-github fa-lg mr-2"></i></i>github.com/limchinfeng</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/lim-chin-feng/" target="_blank">
+                    <span class=" hover:text-light-hover dark:hover:text-dark-hover transition underline"><i class="fa-brands fa-linkedin fa-lg mr-2"></i>linkedin.com/in/lim-chin-feng</i></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Working Experiences -->
+          <div class="mt-5">
+            <h1 class="text-xl font-bold pt-4 text-title"><i class="fa-regular fa-font-awesome mr-2"></i>Working Experiences</h1>
+            {CVWorkingExperiences.map((experience) => (
+              <div class="flex flex-col">
+                <div class="pt-4 flex flex-row gap-2 w-full items-center">
+                  <img src="/image/cv/veecotech.svg" alt="limchinfeng" draggable="false" class="bg-light-background dark:bg-dark-background p-1 w-14 h-14 object-contain aspect-square rounded-full" />
+                  <div class="flex-1">
+                    <h1 class="text-lg font-bold">{experience.company}</h1>
+                    <div class="flex md:flex-row flex-col md:gap-5 justify-between">
+                      <h3>{experience.position}</h3>
+                      <h3>{experience.duration}</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-1 my-1 md:ml-16">
+                  <div class="flex gap-1 flex-wrap">
+                    {experience.tags.map((tag) => (
+                      <span class="text-sm border border-light-text dark:border-dark-border px-1 py-[2px] text-light-text dark:text-dark-text rounded-sm">{tag}</span>
+                    ))}
+                  </div>
+                  <ul class="ml-4 mt-2">
+                    {experience.scopes.map((scope) => (
+                      <li class="list-disc"><p><span class="text-light-hover dark:text-dark-hover">{scope.title}</span>: {scope.description}</p></li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 		</div>

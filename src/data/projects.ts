@@ -1,5 +1,3 @@
-// TODO: remove /limchinfeng-portfolio/public once have bought domain
-
 export const projects = [
   {
     title: "Automated Testing - Laravel Dusk & Selenium",
