@@ -20,7 +20,7 @@ export const CVWorkingExperiences = [
       },
       {
         title: "Full Stack E-Commerce Application",
-        description: "Developed full-stack solutions, collaborated on feature integration for better user experience",
+        description: "Developed full-stack solutions using react as frontend and laravel as backend, collaborated on feature integration for better user experience",
       },
     ]
   },
