@@ -1,0 +1,41 @@
+---
+export interface Project {
+  company: string;
+  image: string;
+  position: string;
+  duration: string;
+  tags: string[];
+  scopes: {
+    title: string;
+    description: string;
+  }[];
+}
+
+const { company, image, position, tags, duration, scopes } = Astro.props as Project;
+---
+
+<div class="flex flex-col">
+  <div class="pt-4 flex flex-row gap-2 w-full items-center">
+    <img src={image} alt="limchinfeng" draggable="false" class="bg-light-background dark:bg-dark-background p-1 w-14 h-14 object-contain aspect-square rounded-full" />
+    <div class="flex-1">
+      <h1 class="text-base md:text-lg font-bold">{company}</h1>
+      <div class="flex md:flex-row flex-col md:gap-5 justify-between text-sm md:text-base">
+        <h3>{position}</h3>
+        <h3>{duration}</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-1 my-2 text-sm md:text-base">
+    <div class="gap-1 flex-wrap md:flex hidden">
+      {tags.map((tag) => (
+        <span class="text-sm border border-light-text dark:border-dark-border px-1 py-[2px] text-light-text dark:text-dark-text rounded-sm">{tag}</span>
+      ))}
+    </div>
+    <ul class="ml-4 mt-2">
+      {scopes.map((scope) => (
+        <li class="list-disc"><p><span class="text-light-hover dark:text-dark-hover">{scope.title}</span>: {scope.description}</p></li>
+      ))}
+    </ul>
+  </div>
+</div>

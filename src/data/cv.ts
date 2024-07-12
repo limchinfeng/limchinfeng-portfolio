@@ -87,34 +87,6 @@ export const CVReleventExperiences = [
 
 export const CVProjects = [
   {
-    name: "Blockchain for Good Malaysia Inter-Varsity Hackathon",
-    position: "Fullstack Developer",
-    duration: "Oct 2023",
-    tags: ["TypeScript", "Next JS", "Tailwind CSS", "MongoDB", "Prisma"],
-    scopes: [
-      {
-        title: "Property Rental Platform",
-        description: "Developed a property rental prototype with user renting system and admin reservation overview",
-      },
-      {
-        title: "Responsive Layouts and Components",
-        description: "Created reusable components and responsive layouts with TypeScript",
-      },
-      {
-        title: "Backend Integration",
-        description: "Designed database schema and integrated backend API",
-      },
-      {
-        title: "Team Collaboration",
-        description: "Worked with another developer on the frontend",
-      },
-      {
-        title: "UI Design",
-        description: "Designed website UI using Figma.",
-      },
-    ]
-  },
-  {
     name: "Internify @ Group Innovation Project",
     position: "Fullstack Developer",
     duration: "Nov 2023 - Jan 2024",
@@ -143,7 +115,35 @@ export const CVProjects = [
     ]
   },
   {
-    name: "Varsity Hackathon",
+    name: "Blockchain for Good Malaysia Inter-Varsity Hackathon",
+    position: "Fullstack Developer",
+    duration: "Oct 2023",
+    tags: ["TypeScript", "Next JS", "Tailwind CSS", "MongoDB", "Prisma"],
+    scopes: [
+      {
+        title: "Property Rental Platform",
+        description: "Developed a property rental prototype with user renting system and admin reservation overview",
+      },
+      {
+        title: "Responsive Layouts and Components",
+        description: "Created reusable components and responsive layouts with TypeScript",
+      },
+      {
+        title: "Backend Integration",
+        description: "Designed database schema and integrated backend API",
+      },
+      {
+        title: "Team Collaboration",
+        description: "Worked with another developer on the frontend",
+      },
+      {
+        title: "UI Design",
+        description: "Designed website UI using Figma.",
+      },
+    ]
+  },
+  {
+    name: "Varsity Hackatho 2023",
     position: "Frontend Developer",
     duration: "March 2023 - April 2023",
     tags: ["Flutter"],

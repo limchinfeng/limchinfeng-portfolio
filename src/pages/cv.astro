@@ -4,7 +4,9 @@ import ThemeToggle from '@/components/theme-toggle.tsx';
 import Header from '@/components/header.astro';
 import Footer from '@components/footer.astro';
 
-import {CVWorkingExperiences} from '@data/cv'
+import {CVProjects, CVReleventExperiences, CVWorkingExperiences} from '@data/cv'
+import WorkingExperience from '@components/cv/working-experience.astro';
+import ExperienceProject from '@components/cv/experience-project.astro';
 ---
 
 <Layout title="CV | limchinfeng">
@@ -35,12 +37,7 @@ import {CVWorkingExperiences} from '@data/cv'
               <p>Software Engineering Student @ USM</p>
             </div>
             <div class="md:pl-5 flex-1 pt-4">
-              <ul class="md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col lg:gap-2 gap-2">
-                <li>
-                  <a href="mailto:limchinfeng.work@gmail.com" target="_blank">
-                    <span class="hover:text-light-hover dark:hover:text-dark-hover transition"><i class="fa-solid fa-envelope mr-2"></i></i></i>limchinfeng.work@gmail.com</span>
-                  </a>
-                </li>
+              <ul class="flex md:flex-row flex-col md:gap-10 gap-2">
                 <li>
                   <a href="https://github.com/limchinfeng" target="_blank">
                     <span class="hover:text-light-hover dark:hover:text-dark-hover transition underline"><i class="fa-brands fa-github fa-lg mr-2"></i></i>github.com/limchinfeng</span>
@@ -56,35 +53,33 @@ import {CVWorkingExperiences} from '@data/cv'
           </div>
 
           <!-- Working Experiences -->
-          <div class="mt-5">
+          <div class="my-8">
             <h1 class="text-xl font-bold pt-4 text-title"><i class="fa-regular fa-font-awesome mr-2"></i>Working Experiences</h1>
             {CVWorkingExperiences.map((experience) => (
-              <div class="flex flex-col">
-                <div class="pt-4 flex flex-row gap-2 w-full items-center">
-                  <img src="/image/cv/veecotech.svg" alt="limchinfeng" draggable="false" class="bg-light-background dark:bg-dark-background p-1 w-14 h-14 object-contain aspect-square rounded-full" />
-                  <div class="flex-1">
-                    <h1 class="text-lg font-bold">{experience.company}</h1>
-                    <div class="flex md:flex-row flex-col md:gap-5 justify-between">
-                      <h3>{experience.position}</h3>
-                      <h3>{experience.duration}</h3>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="flex flex-col gap-1 my-1 md:ml-16">
-                  <div class="flex gap-1 flex-wrap">
-                    {experience.tags.map((tag) => (
-                      <span class="text-sm border border-light-text dark:border-dark-border px-1 py-[2px] text-light-text dark:text-dark-text rounded-sm">{tag}</span>
-                    ))}
-                  </div>
-                  <ul class="ml-4 mt-2">
-                    {experience.scopes.map((scope) => (
-                      <li class="list-disc"><p><span class="text-light-hover dark:text-dark-hover">{scope.title}</span>: {scope.description}</p></li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              <WorkingExperience {...experience} />
             ))}
+          </div>
+
+          <div class="w-4/5 border border-light-text/40 dark:border-dark-text/50 mx-auto" />
+
+          <!-- Relevent Experiences -->
+          <div class="py-5">
+            <h1 class="text-xl font-bold pt-4 text-title"><i class="fa-regular fa-font-awesome mr-2"></i>Experiences</h1>
+            {CVReleventExperiences.map((experience) => (
+              <ExperienceProject {...experience} />
+            ))}
+            </div>
+          </div>
+
+          <div class="w-4/5 border border-light-text/40 dark:border-dark-text/50 mx-auto" />
+
+          <!-- Projects -->
+          <div class="pt-4">
+            <h1 class="text-xl font-bold pt-4 text-title"><i class="fa-regular fa-font-awesome mr-2"></i>Projects</h1>
+            {CVProjects.map((experience) => (
+              <ExperienceProject {...experience} />
+            ))}
+            </div>
           </div>
         </div>
       </div>
