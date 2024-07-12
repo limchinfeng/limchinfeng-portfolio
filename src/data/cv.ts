@@ -3,7 +3,7 @@ export const CVWorkingExperiences = [
     company: "Veecotech Solution Sdn Bhd",
     image: "/image/cv/veecotech.svg",
     position: "Software Developer Intern",
-    duration: "June 2021 - Present",
+    duration: "Mar 2024 - Present",
     tags: ["Fullstack", "Laravel", "PHP", "MySQL", "Next JS", "React", "Typescript", "React Native", "Tailwind CSS", "Selenium", "Laravel Dusk"],
     scopes: [
       {
@@ -50,7 +50,7 @@ export const CVReleventExperiences = [
   {
     name: "Pixel USM",
     position: "Frontend Developer",
-    duration: "April 2022 - Sep 2022",
+    duration: "Apr 2022 - Sep 2022",
     tags: ["Svelte", "Firebase", "Tailwind CSS"],
     scopes: [
       {
@@ -145,7 +145,7 @@ export const CVProjects = [
   {
     name: "Varsity Hackatho 2023",
     position: "Frontend Developer",
-    duration: "March 2023 - April 2023",
+    duration: "Mar 2023 - Apr 2023",
     tags: ["Flutter"],
     scopes: [
       {
