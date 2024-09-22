@@ -2,7 +2,7 @@ import Fullcalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
-import { availability } from "@/data/availability.ts";
+import { availability } from "@data/availability.ts";
 
 
 const mapAvailabilityToEvents = (availability) => {
