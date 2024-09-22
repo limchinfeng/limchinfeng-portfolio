@@ -1,0 +1,16 @@
+---
+
+import {announcements} from "@/data/availability.ts";
+---
+
+{announcements.map((announcement) => (
+  <div
+    class={`w-full space-y-1 bg-light-background dark:bg-dark-background border border-light-text dark:border-dark-border p-5 mb-5 
+    ${announcement.type === "info" && "border-l-8 border-l-blue-500 dark:border-l-blue-300" } 
+    ${announcement.type === "important" && "border-l-8 border-l-red-500 dark:border-l-red-300" }`}
+  >
+    <h1 class="text-title text-xl font-bold ">{announcement.title}</h1>
+    <p class="text-sm text-light-text dark:text-dark-text">{announcement.date}</p>
+    <p class="text-justify">{announcement.description}</p>
+  </div>
+))}
