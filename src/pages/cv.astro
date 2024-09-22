@@ -1,12 +1,13 @@
 ---
-import Layout from '@layouts/Layout.astro';
-import ThemeToggle from '@components/theme-toggle.tsx';
-import Header from '@components/header.astro';
-import Footer from '@components/footer.astro';
+import ExperienceProject from "src/components/cv/experience-project.astro";
+import WorkingExperience from "src/components/cv/working-experience.astro";
+import Footer from "src/components/footer.astro";
+import Header from "src/components/header.astro";
+import ThemeToggle from "src/components/theme-toggle";
+import Layout from "src/layouts/Layout.astro";
+import { CVProjects, CVReleventExperiences, CVWorkingExperiences } from "src/data/cv";
 
-import {CVProjects, CVReleventExperiences, CVWorkingExperiences} from '@data/cv'
-import WorkingExperience from '@components/cv/working-experience.astro';
-import ExperienceProject from '@components/cv/experience-project.astro';
+
 ---
 
 <Layout title="CV | limchinfeng">
