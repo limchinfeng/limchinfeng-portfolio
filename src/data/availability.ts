@@ -1,54 +1,54 @@
 export const availability = [
   {
-    "title": "Monday Blue - Day 1",
+    "title": "W1 - 1-4 hours",
     "date": "2024-10-01",
-    "startTime": "08:30",
-    "endTime": "12:30"
+    "startTime": "09:30",
+    "endTime": "1:30"
   },
   {
-    "title": "Day 2",
+    "title": "W1 - 5-8 hours",
+    "date": "2024-10-01",
+    "startTime": "2:00",
+    "endTime": "6:00"
+  },
+  {
+    "title": "W1 - 9-12 hours",
     "date": "2024-10-02",
     "startTime": "08:30",
     "endTime": "12:30"
   },
   {
-    "title": "Day 3",
-    "date": "2024-10-03",
-    "startTime": "08:30",
-    "endTime": "12:30"
-  },
-  {
-    "title": "Day 4",
+    "title": "W1 - 13-16 hours",
     "date": "2024-10-04",
     "startTime": "08:30",
     "endTime": "12:30"
   },
   {
-    "title": "Day 5",
+    "title": "W2 - 1-4 hours",
     "date": "2024-10-07",
     "startTime": "08:30",
     "endTime": "12:30"
   },
   {
-    "title": "Day 6",
+    "title": "W2 - 5-8 hours",
     "date": "2024-10-08",
     "startTime": "08:30",
     "endTime": "12:30"
   },
   {
-    "title": "Day 7",
+    "title": "W2 - 9-12 hours",
     "date": "2024-10-09",
     "startTime": "08:30",
     "endTime": "12:30"
   },
   {
-    "title": "Day 8",
+    "title": "W2 - 13-16 hours",
     "date": "2024-10-10",
     "startTime": "08:30",
     "endTime": "12:30"
   },
   {
-    "title": "Day 9",
+    "title": "W2 - 17-20 hours",
     "date": "2024-10-11",
     "startTime": "08:30",
     "endTime": "12:30"
