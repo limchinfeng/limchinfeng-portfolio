@@ -85,7 +85,7 @@ export const availability = [
   },
   {
     "title": "W3 - 17-20 hours",
-    "date": "2024-10",
+    "date": "2024-10-18",
     "startTime": "12:00",
     "endTime": "16:00"
   },
