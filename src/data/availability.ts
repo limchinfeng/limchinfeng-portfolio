@@ -53,6 +53,42 @@ export const availability = [
     "startTime": "08:30",
     "endTime": "12:30"
   },
+  {
+    "title": "W3 - 1-4 hours",
+    "date": "2024-10-07",
+    "startTime": "13:30",
+    "endTime": "17:30"
+  },
+  {
+    "title": "W3 - 5-8 hours",
+    "date": "2024-10-15",
+    "startTime": "12:00",
+    "endTime": "16:00"
+  },
+  {
+    "title": "W3 - 9-10 hours",
+    "date": "2024-10-16",
+    "startTime": "08:30",
+    "endTime": "10:30"
+  },
+  {
+    "title": "W3 - 11-12 hours",
+    "date": "2024-10-16",
+    "startTime": "15:00",
+    "endTime": "17:00"
+  },
+  {
+    "title": "W3 - 13-16 hours",
+    "date": "2024-10-10",
+    "startTime": "12:00",
+    "endTime": "16:00"
+  },
+  {
+    "title": "W3 - 17-20 hours",
+    "date": "2024-10-11",
+    "startTime": "12:00",
+    "endTime": "16:00"
+  },
 ];
 
 export const announcements = [
