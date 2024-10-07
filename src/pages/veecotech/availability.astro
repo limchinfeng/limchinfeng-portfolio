@@ -5,7 +5,8 @@ import ThemeToggle from "src/components/theme-toggle";
 import Layout from "src/layouts/Layout.astro";
 import AvailabilityCalendar from "src/components/veecotech/calendar";
 import { announcements } from "src/data/availability";
-
+import { Image } from "astro:assets";
+import academicCalendar from "/public/image/veecotech/academic-calendar-sem1.png";
 ---
 
 <Layout title="Veecotech Availability | limchinfeng">
@@ -31,6 +32,14 @@ import { announcements } from "src/data/availability";
           </div>
           <div class="h-full w-full mt-5">
             <AvailabilityCalendar client:load />
+          </div>
+          <div class="mt-8 rounded-sm">
+            <Image 
+              src={academicCalendar}
+              alt="academic calendar semester 1"
+              class=""
+              draggable="false"
+            />
           </div>
         </div>
       </div>

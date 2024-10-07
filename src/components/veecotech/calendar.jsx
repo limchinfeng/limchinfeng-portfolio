@@ -2,6 +2,7 @@ import Fullcalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
+import listPlugin from '@fullcalendar/list';
 import { availability } from "src/data/availability";
 
 
@@ -41,12 +42,12 @@ function AvailabilityCalendar() {
 
   return (
     <Fullcalendar
-      plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+      plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
       initialView={"dayGridMonth"}
       headerToolbar={{
         start: "today prev,next", 
         center: "title",
-        end: "dayGridMonth,timeGridWeek,timeGridDay", 
+        end: "dayGridMonth,timeGridWeek,timeGridDay,listWeek", 
       }}
       events={mapAvailabilityToEvents(availability)} // Pass events to FullCalendar
       eventClick={handleEventClick}
