@@ -12,7 +12,10 @@ const mapAvailabilityToEvents = (availability) => {
       title: item.title,
       start: `${item.date}T${item.startTime}:00`, // ISO 8601 format
       end: `${item.date}T${item.endTime}:00`,
-      allDay: false  // Set to false since it's not an all-day event
+      allDay: false,  // Set to false since it's not an all-day event
+      extendedProps: {
+        details: item.details, // Add details to extendedProps
+      },
     };
   });
 };
@@ -20,7 +23,7 @@ const mapAvailabilityToEvents = (availability) => {
 function AvailabilityCalendar() {
 
   const handleEventClick = (clickInfo) => {
-    const { title, start, end } = clickInfo.event;
+    const { title, start, end, extendedProps  } = clickInfo.event;
 
     // Format start and end times to 24-hour format
     const startFormatted = start.toLocaleString("en-GB", {
@@ -37,7 +40,7 @@ function AvailabilityCalendar() {
       hour12: false,
     });
 
-    window.alert(`Event: ${title}\nStart: ${startFormatted}\nEnd: ${endFormatted}`);
+    window.alert(`Event: ${title}\nStart: ${startFormatted}\nEnd: ${endFormatted}\n Details: ${extendedProps.details ?? "-"}`);
   };
 
   return (
