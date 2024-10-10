@@ -46,14 +46,14 @@ export const availability = [
     "date": "2024-10-09",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "Data Migration: Quotation"
   },
   {
     "title": "W2 - 13-16 hours",
     "date": "2024-10-10",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "Data Migration: Invoice"
   },
   {
     "title": "W2 - 17-20 hours",
@@ -77,19 +77,26 @@ export const availability = [
     "details": ""
   },
   {
-    "title": "W3 - 9-10 hours",
-    "date": "2024-10-16",
-    "startTime": "08:30",
-    "endTime": "10:30",
-    "details": ""
+    "title": "W3 - 9-12 hours",
+    "date": "2024-10-10",
+    "startTime": "13:30",
+    "endTime": "17:30",
+    "details": "Invoice Preview PDF"
   },
-  {
-    "title": "W3 - 11-12 hours",
-    "date": "2024-10-16",
-    "startTime": "15:00",
-    "endTime": "17:00",
-    "details": ""
-  },
+  // {
+  //   "title": "W3 - 9-10 hours",
+  //   "date": "2024-10-16",
+  //   "startTime": "08:30",
+  //   "endTime": "10:30",
+  //   "details": ""
+  // },
+  // {
+  //   "title": "W3 - 11-12 hours",
+  //   "date": "2024-10-16",
+  //   "startTime": "15:00",
+  //   "endTime": "17:00",
+  //   "details": ""
+  // },
   {
     "title": "W3 - 13-16 hours",
     "date": "2024-10-17",
