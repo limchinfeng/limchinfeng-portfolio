@@ -6,7 +6,7 @@ import Layout from "src/layouts/Layout.astro";
 import AvailabilityCalendar from "src/components/veecotech/calendar";
 import { announcements } from "src/data/availability";
 import { Image } from "astro:assets";
-import academicCalendar from "/public/image/veecotech/academic-calendar-sem1.png";
+import academicCalendar from "public/image/veecotech/academic-calendar-sem1.png";
 ---
 
 <Layout title="Veecotech Availability | limchinfeng">
@@ -18,7 +18,7 @@ import academicCalendar from "/public/image/veecotech/academic-calendar-sem1.png
       <div class="leading-relaxed space-y-3 text-justify text-light-text dark:text-dark-text mx-5 w-full">
         <div class="flex flex-col justify-center items-center">
           <div class="flex flex-col gap-3 w-full border-white">
-            {announcements.map((announcement) => (
+            {announcements.length > 0 && announcements.map((announcement) => (
               <div
                 class={`w-full space-y-1 bg-light-background dark:bg-dark-background border border-light-text dark:border-dark-border p-5 mb-5 
                 ${announcement.type === "info" && "border-l-8 border-l-blue-500 dark:border-l-blue-300" } 

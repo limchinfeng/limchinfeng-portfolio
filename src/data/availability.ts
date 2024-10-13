@@ -74,7 +74,7 @@ export const availability = [
     "date": "2024-10-15",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Invoice Apply Package"
   },
   {
     "title": "W3 - 9-12 hours",
@@ -114,10 +114,10 @@ export const availability = [
 ];
 
 export const announcements = [
-  {
-    "title": "First Working Day",
-    "description": "My first day of my part time work will be on 1st October 2024.",
-    "type": "info",
-    "date": "2024-10-01",
-  },
+  // {
+  //   "title": "First Working Day",
+  //   "description": "My first day of my part time work will be on 1st October 2024.",
+  //   "type": "info",
+  //   "date": "2024-10-01",
+  // },
 ];
