@@ -114,10 +114,10 @@ export const availability = [
 ];
 
 export const announcements = [
-  // {
-  //   "title": "First Working Day",
-  //   "description": "My first day of my part time work will be on 1st October 2024.",
-  //   "type": "info",
-  //   "date": "2024-10-01",
-  // },
+  {
+    "title": "",
+    "description": "",
+    "type": "info",
+    "date": "",
+  },
 ];
