@@ -74,7 +74,7 @@ export const availability = [
     "date": "2024-10-15",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": "Invoice Apply Package"
+    "details": "Invoice Apply Package && Split Invoice"
   },
   {
     "title": "W3 - 9-12 hours",
@@ -107,6 +107,41 @@ export const availability = [
   {
     "title": "W3 - 17-20 hours",
     "date": "2024-10-18",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W4 - 1-4 hours",
+    "date": "2024-10-21",
+    "startTime": "13:30",
+    "endTime": "17:30",
+    "details": ""
+  },
+  {
+    "title": "W4 - 5-8 hours",
+    "date": "2024-10-22",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": ""
+  },
+  {
+    "title": "W4 - 9-12 hours",
+    "date": "2024-10-16",
+    "startTime": "10:00",
+    "endTime": "14:00",
+    "details": "Split Invoice"
+  },
+  {
+    "title": "W4 - 13-16 hours",
+    "date": "2024-10-24",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W4 - 17-20 hours",
+    "date": "2024-10-25",
     "startTime": "12:00",
     "endTime": "16:00",
     "details": ""

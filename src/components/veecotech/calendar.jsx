@@ -40,7 +40,7 @@ function AvailabilityCalendar() {
       hour12: false,
     });
 
-    window.alert(`Event: ${title}\nStart: ${startFormatted}\nEnd: ${endFormatted}\n Details: ${extendedProps.details ?? "-"}`);
+    window.alert(`Event: ${title}\nStart: ${startFormatted}\nEnd: ${endFormatted}\nDetails: ${extendedProps.details ?? "-"}`);
   };
 
   return (
