@@ -60,7 +60,7 @@ export const availability = [
     "date": "2024-10-11",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "Data Migration: Invoice"
   },
   {
     "title": "W3 - 1-4 hours",
@@ -102,21 +102,21 @@ export const availability = [
     "date": "2024-10-17",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Split Invoice"
   },
   {
     "title": "W3 - 17-20 hours",
     "date": "2024-10-18",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Split Invoice"
   },
   {
     "title": "W4 - 1-4 hours",
     "date": "2024-10-21",
     "startTime": "13:30",
     "endTime": "17:30",
-    "details": ""
+    "details": "Data Migration: Split Invoice"
   },
   {
     "title": "W4 - 5-8 hours",
