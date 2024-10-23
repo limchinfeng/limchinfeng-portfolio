@@ -123,7 +123,7 @@ export const availability = [
     "date": "2024-10-22",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "Data Migration: Split Invoice, Index fix"
   },
   {
     "title": "W4 - 9-12 hours",
@@ -142,6 +142,41 @@ export const availability = [
   {
     "title": "W4 - 17-20 hours",
     "date": "2024-10-25",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W5 - 1-4 hours",
+    "date": "2024-10-28",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": ""
+  },
+  {
+    "title": "W4 - 5-8 hours",
+    "date": "2024-10-29",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": ""
+  },
+  {
+    "title": "W4 - 9-12 hours",
+    "date": "2024-10-23",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "details": "Invoice & Split Invoice Issue Date Change, Disable edit after draft(invoice) and confirm(split invoice)"
+  },
+  {
+    "title": "W4 - 13-16 hours",
+    "date": "2024-10-31",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W4 - 17-20 hours",
+    "date": "2024-11-01",
     "startTime": "12:00",
     "endTime": "16:00",
     "details": ""
