@@ -151,14 +151,14 @@ export const availability = [
     "date": "2024-10-28",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "SST Report"
   },
   {
     "title": "W5 - 5-8 hours",
     "date": "2024-10-29",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "SST report & High Chart"
   },
   {
     "title": "W5 - 9-12 hours",
@@ -172,11 +172,46 @@ export const availability = [
     "date": "2024-10-31",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Quotaiton n Split Invoice script seperation & item disable tax"
   },
   {
     "title": "W5 - 17-20 hours",
     "date": "2024-11-01",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W6 - 1-4 hours",
+    "date": "2024-11-4",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": ""
+  },
+  {
+    "title": "W6 - 5-8 hours",
+    "date": "2024-11-5",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": ""
+  },
+  {
+    "title": "W5 - 9-12 hours",
+    "date": "2024-10-30",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "details": "Chart Component & Quotaiton n Split Invoice script seperation"
+  },
+  {
+    "title": "W6 - 13-16 hours",
+    "date": "2024-11-6",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W6 - 17-20 hours",
+    "date": "2024-11-07",
     "startTime": "12:00",
     "endTime": "16:00",
     "details": ""
