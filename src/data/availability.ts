@@ -204,7 +204,7 @@ export const availability = [
   },
   {
     "title": "W6 - 13-16 hours",
-    "date": "2024-11-08",
+    "date": "2024-11-07",
     "startTime": "12:00",
     "endTime": "16:00",
     "details": ""
