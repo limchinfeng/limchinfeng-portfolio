@@ -163,7 +163,7 @@ export const availability = [
   {
     "title": "W5 - 9-12 hours",
     "date": "2024-10-23",
-    "startTime": "14:00",
+    "startTime": "12:00",
     "endTime": "16:00",
     "details": "Invoice & Split Invoice Issue Date Change, Disable edit after draft(invoice) and confirm(split invoice)"
   },
@@ -198,22 +198,22 @@ export const availability = [
   {
     "title": "W6 - 9-12 hours",
     "date": "2024-10-30",
-    "startTime": "14:00",
+    "startTime": "12:00",
     "endTime": "16:00",
     "details": "Chart Component & Quotaiton n Split Invoice script seperation"
   },
   {
     "title": "W6 - 13-16 hours",
-    "date": "2024-11-06",
+    "date": "2024-11-08",
     "startTime": "12:00",
     "endTime": "16:00",
     "details": ""
   },
   {
     "title": "W6 - 17-20 hours",
-    "date": "2024-11-07",
-    "startTime": "12:00",
-    "endTime": "16:00",
+    "date": "2024-11-08",
+    "startTime": "08:00",
+    "endTime": "12:00",
     "details": ""
   },
 ];
