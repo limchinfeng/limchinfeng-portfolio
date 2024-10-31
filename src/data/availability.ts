@@ -183,20 +183,20 @@ export const availability = [
   },
   {
     "title": "W6 - 1-4 hours",
-    "date": "2024-11-4",
+    "date": "2024-11-04",
     "startTime": "08:30",
     "endTime": "12:30",
     "details": ""
   },
   {
     "title": "W6 - 5-8 hours",
-    "date": "2024-11-5",
+    "date": "2024-11-05",
     "startTime": "08:30",
     "endTime": "12:30",
     "details": ""
   },
   {
-    "title": "W5 - 9-12 hours",
+    "title": "W6 - 9-12 hours",
     "date": "2024-10-30",
     "startTime": "14:00",
     "endTime": "16:00",
@@ -204,7 +204,7 @@ export const availability = [
   },
   {
     "title": "W6 - 13-16 hours",
-    "date": "2024-11-6",
+    "date": "2024-11-06",
     "startTime": "12:00",
     "endTime": "16:00",
     "details": ""
