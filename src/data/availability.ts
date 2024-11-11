@@ -186,14 +186,14 @@ export const availability = [
     "date": "2024-11-04",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "Product Dusk"
   },
   {
     "title": "W6 - 5-8 hours",
     "date": "2024-11-05",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "Company Dusk"
   },
   {
     "title": "W6 - 9-12 hours",
@@ -207,11 +207,46 @@ export const availability = [
     "date": "2024-11-07",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Client PIC Dusk"
   },
   {
     "title": "W6 - 17-20 hours",
     "date": "2024-11-08",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Quotation Dusk - create"
+  },
+  {
+    "title": "W7 - 1-4 hours",
+    "date": "2024-11-11",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": "Quotation Dusk - edit, assign to, email to client"
+  },
+  {
+    "title": "W7 - 5-8 hours",
+    "date": "2024-11-12",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": ""
+  },
+  {
+    "title": "W6 - 9-12 hours",
+    "date": "2024-11-06",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": "Client Dusk"
+  },
+  {
+    "title": "W7 - 13-16 hours",
+    "date": "2024-11-14",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W7 - 17-20 hours",
+    "date": "2024-11-15",
     "startTime": "08:00",
     "endTime": "12:00",
     "details": ""
