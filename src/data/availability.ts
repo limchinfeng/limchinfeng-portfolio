@@ -228,10 +228,10 @@ export const availability = [
     "date": "2024-11-12",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "Sortable Item for quotation, invoice and split invoice"
   },
   {
-    "title": "W6 - 9-12 hours",
+    "title": "W7 - 9-12 hours",
     "date": "2024-11-06",
     "startTime": "12:00",
     "endTime": "16:00",
@@ -242,11 +242,46 @@ export const availability = [
     "date": "2024-11-14",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Invoice Dusk"
   },
   {
     "title": "W7 - 17-20 hours",
     "date": "2024-11-15",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Split Invoice Dusk"
+  },
+  {
+    "title": "W8 - 1-4 hours",
+    "date": "2024-11-18",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": "Split Invoice Dusk"
+  },
+  {
+    "title": "W8 - 5-8 hours",
+    "date": "2024-11-19",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": ""
+  },
+  {
+    "title": "W8 - 9-12 hours",
+    "date": "2024-11-13",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": "Client Dusk"
+  },
+  {
+    "title": "W8 - 13-16 hours",
+    "date": "2024-11-21",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W8 - 17-20 hours",
+    "date": "2024-11-22",
     "startTime": "08:00",
     "endTime": "12:00",
     "details": ""
