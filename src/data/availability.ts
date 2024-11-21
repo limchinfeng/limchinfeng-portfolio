@@ -263,7 +263,7 @@ export const availability = [
     "date": "2024-11-19",
     "startTime": "08:30",
     "endTime": "12:30",
-    "details": ""
+    "details": "Payment View Attachment"
   },
   {
     "title": "W8 - 9-12 hours",
@@ -277,11 +277,81 @@ export const availability = [
     "date": "2024-11-21",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Payment Verification Module"
   },
   {
     "title": "W8 - 17-20 hours",
     "date": "2024-11-22",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "General Payment Verification scripts integration"
+  },
+  {
+    "title": "W9 - 1-4 hours",
+    "date": "2024-11-20",
+    "startTime": "08:30",
+    "endTime": "12:30",
+    "details": "Payment Verification Module"
+  },
+  {
+    "title": "W9 - 5-8 hours",
+    "date": "2024-11-22",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "General Payment Verification scripts integration & Split Invoice Payment"
+  },
+  {
+    "title": "W9 - 9-12 hours",
+    "date": "2024-11-25",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W9 - 13-16 hours",
+    "date": "2024-11-26",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W9 - 17-20 hours",
+    "date": "2024-11-26",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W10 - 1-4 hours",
+    "date": "2024-11-27",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W10 - 5-8 hours",
+    "date": "2024-11-27",
+    "startTime": "13:00",
+    "endTime": "17:30",
+    "details": ""
+  },
+  {
+    "title": "W10 - 9-12 hours",
+    "date": "2024-11-29",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W10 - 13-16 hours",
+    "date": "2024-11-29",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W10 - 17-20 hours",
+    "date": "2024-12-02",
     "startTime": "08:00",
     "endTime": "12:00",
     "details": ""
@@ -290,8 +360,8 @@ export const availability = [
 
 export const announcements = [
   {
-    "title": "",
-    "description": "",
+    "title": "Remaining Leave",
+    "description": "Until 29 Nov 2024, there will be an accumulated of 4 days of leave remaining.",
     "type": "info",
     "date": "",
   },
