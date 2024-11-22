@@ -13,6 +13,7 @@ export const projects = [
     image: "/image/index/HackEclipse.svg",
     description: `Built for a GDSC USM hackathon, this website allows participants register and submit projects, and allowed judges to evaluate them. The event got canceled, but hey, we finished the website!`,
     tags: ["Fullstack", "Astro", "Tailwind CSS", "Javascript", "Firebase"],
+    link: "https://hackathon-website-cmt322.pages.dev/"
   },
   {
     title: "Internify",
