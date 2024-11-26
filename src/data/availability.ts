@@ -305,21 +305,21 @@ export const availability = [
     "date": "2024-11-25",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "UAT Invoice Duplicate New Error & Login Audit"
   },
   {
     "title": "W9 - 13-16 hours",
     "date": "2024-11-26",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": " fixing table sorting issues, client pic uat enhancement"
   },
   {
     "title": "W9 - 17-20 hours",
     "date": "2024-11-26",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "project type module modification and user manual for user module"
   },
   {
     "title": "W10 - 1-4 hours",
