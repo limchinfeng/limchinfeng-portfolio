@@ -83,20 +83,6 @@ export const availability = [
     "endTime": "17:30",
     "details": "Invoice Preview PDF"
   },
-  // {
-  //   "title": "W3 - 9-10 hours",
-  //   "date": "2024-10-16",
-  //   "startTime": "08:30",
-  //   "endTime": "10:30",
-  //   "details": ""
-  // },
-  // {
-  //   "title": "W3 - 11-12 hours",
-  //   "date": "2024-10-16",
-  //   "startTime": "15:00",
-  //   "endTime": "17:00",
-  //   "details": ""
-  // },
   {
     "title": "W3 - 13-16 hours",
     "date": "2024-10-17",
@@ -326,28 +312,28 @@ export const availability = [
     "date": "2024-11-27",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "client, client pic, company user manual"
   },
   {
     "title": "W10 - 5-8 hours",
     "date": "2024-11-27",
     "startTime": "13:00",
     "endTime": "17:30",
-    "details": ""
+    "details": "quotation, invoice user manual"
   },
   {
     "title": "W10 - 9-12 hours",
     "date": "2024-11-29",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "invoice, split invoice user manual"
   },
   {
     "title": "W10 - 13-16 hours",
     "date": "2024-11-29",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Payment Verification check invoice payment status, payment verification manual"
   },
   {
     "title": "W10 - 17-20 hours",
