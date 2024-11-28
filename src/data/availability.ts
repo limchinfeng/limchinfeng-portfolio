@@ -318,28 +318,64 @@ export const availability = [
     "title": "W10 - 5-8 hours",
     "date": "2024-11-27",
     "startTime": "13:00",
-    "endTime": "17:30",
+    "endTime": "17:00",
     "details": "quotation, invoice user manual"
   },
   {
     "title": "W10 - 9-12 hours",
-    "date": "2024-11-29",
-    "startTime": "08:00",
-    "endTime": "12:00",
+    "date": "2024-11-28",
+    "startTime": "14:00",
+    "endTime": "18:00",
     "details": "invoice, split invoice user manual"
   },
+
   {
     "title": "W10 - 13-16 hours",
     "date": "2024-11-29",
-    "startTime": "13:00",
-    "endTime": "17:00",
-    "details": "Payment Verification check invoice payment status, payment verification manual"
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Payment Verification invoice status checking, payment verification user manual"
   },
   {
     "title": "W10 - 17-20 hours",
+    "date": "2024-11-29",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W11 - 1-4 hours",
     "date": "2024-12-02",
     "startTime": "08:00",
     "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W11 - 5-8 hours",
+    "date": "2024-12-05",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W11 - 9-12 hours",
+    "date": "2024-12-05",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W11 - 13-16 hours",
+    "date": "2024-12-09",
+    "startTime": "8:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W11 - 17-20 hours",
+    "date": "2024-12-09",
+    "startTime": "13:00",
+    "endTime": "17:00",
     "details": ""
   },
 ];
@@ -347,7 +383,7 @@ export const availability = [
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 29 Nov 2024, there will be an accumulated of 4 days of leave remaining.",
+    "description": "Until 6 Dec 2024, there will be an accumulated of 3 days of leave remaining.",
     "type": "info",
     "date": "",
   },
