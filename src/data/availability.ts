@@ -341,28 +341,28 @@ export const availability = [
     "date": "2024-11-29",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Invoice convert to project, project status changing action"
   },
   {
     "title": "W11 - 1-4 hours",
     "date": "2024-12-02",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Vendor Module, Payment to Vendor module"
   },
   {
     "title": "W11 - 5-8 hours",
     "date": "2024-12-05",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Payment to Vendor module"
   },
   {
     "title": "W11 - 9-12 hours",
     "date": "2024-12-05",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Payment to Vendor module"
   },
   {
     "title": "W11 - 13-16 hours",
