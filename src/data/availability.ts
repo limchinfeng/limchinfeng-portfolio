@@ -367,7 +367,7 @@ export const availability = [
   {
     "title": "W11 - 13-16 hours",
     "date": "2024-12-09",
-    "startTime": "8:00",
+    "startTime": "08:00",
     "endTime": "12:00",
     "details": ""
   },
@@ -378,12 +378,47 @@ export const availability = [
     "endTime": "17:00",
     "details": ""
   },
+  {
+    "title": "W12 - 1-4 hours",
+    "date": "2024-12-10",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W12 - 5-8 hours",
+    "date": "2024-12-10",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W12 - 9-12 hours",
+    "date": "2024-12-11",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W12 - 13-16 hours",
+    "date": "2024-12-12",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
+  {
+    "title": "W11 - 17-20 hours",
+    "date": "2024-12-13",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "details": ""
+  },
 ];
 
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 6 Dec 2024, there will be an accumulated of 3 days of leave remaining.",
+    "description": "Until 13 Dec 2024, there will be an accumulated of 5 days of leave remaining.",
     "type": "info",
     "date": "",
   },
