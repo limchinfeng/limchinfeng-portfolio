@@ -395,8 +395,8 @@ export const availability = [
   {
     "title": "W12 - 9-12 hours",
     "date": "2024-12-11",
-    "startTime": "08:00",
-    "endTime": "12:00",
+    "startTime": "13:00",
+    "endTime": "17:00",
     "details": "Project Request Payment, Recurring Invoice CRUD"
   },
   {
@@ -418,49 +418,49 @@ export const availability = [
     "date": "2024-12-16",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Recurring Invoice CRUD"
   },
   {
     "title": "W13 - 5-8 hours",
     "date": "2024-12-16",
-    "startTime": "08:00",
-    "endTime": "12:00",
-    "details": ""
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Recurring Invoice CRUD"
   },
   {
     "title": "W13 - 9-12 hours",
     "date": "2024-12-17",
-    "startTime": "08:00",
-    "endTime": "12:00",
-    "details": ""
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Recurring Invoice CRUD"
   },
   {
     "title": "W13 - 13-16 hours",
     "date": "2024-12-17",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Recurring Invoice CRUD"
   },
   {
     "title": "W13 - 17-20 hours",
     "date": "2024-12-18",
     "startTime": "12:00",
     "endTime": "16:00",
-    "details": ""
+    "details": "Recurring Invoice CRUD"
   },
   {
     "title": "W14 - 1-4 hours",
     "date": "2024-12-19",
-    "startTime": "13:00",
-    "endTime": "17:00",
-    "details": ""
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Invoice convert to recurring invoices"
   },
   {
     "title": "W14 - 5-8 hours",
     "date": "2024-12-20",
-    "startTime": "13:00",
-    "endTime": "17:00",
-    "details": ""
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Split Invoice Model Edition"
   },
   {
     "title": "W14 - 9-12 hours",
