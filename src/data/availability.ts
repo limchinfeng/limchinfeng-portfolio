@@ -467,18 +467,123 @@ export const availability = [
     "date": "2024-12-23",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Data Migration(Vsupport): Quotation & Invoice Modification"
   },
   {
     "title": "W14 - 13-16 hours",
     "date": "2024-12-23",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Data Migration(Vsupport): Quotation & Invoice Modification & Payment"
   },
   {
     "title": "W14 - 17-20 hours",
     "date": "2024-12-24",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W15 - 1-4 hours",
+    "date": "2024-12-24",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W15 - 5-8 hours",
+    "date": "2024-12-25",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W15 - 9-12 hours",
+    "date": "2024-12-26",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W15 - 13-16 hours",
+    "date": "2024-12-27",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W15 - 17-20 hours",
+    "date": "2024-12-30",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W16 - 1-4 hours",
+    "date": "2024-12-30",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "w16 - 5-8 hours",
+    "date": "2024-12-31",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "w16 - 9-12 hours",
+    "date": "2024-12-31",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "w16 - 13-16 hours",
+    "date": "2025-01-01",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "w16 - 17-20 hours",
+    "date": "2025-01-02",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W17 - 1-4 hours",
+    "date": "2025-01-03",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W17 - 5-8 hours",
+    "date": "2025-01-06",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W17 - 9-12 hours",
+    "date": "2025-01-06",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W17 - 13-16 hours",
+    "date": "2025-01-07",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W17 - 17-20 hours",
+    "date": "2025-01-08",
     "startTime": "08:00",
     "endTime": "12:00",
     "details": ""
@@ -488,7 +593,7 @@ export const availability = [
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 20 Dec 2024, there will be an accumulated of 7 days of leave remaining.",
+    "description": "Until 03 Jan 2024, there will be an accumulated of 11 days of leave remaining.",
     "type": "info",
     "date": "",
   },
