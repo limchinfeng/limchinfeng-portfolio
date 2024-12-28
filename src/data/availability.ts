@@ -481,49 +481,49 @@ export const availability = [
     "date": "2024-12-24",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Data Migration(Vsupport): Project Module"
   },
   {
     "title": "W15 - 1-4 hours",
     "date": "2024-12-24",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Data Migration(Vsupport): Project Module"
   },
   {
     "title": "W15 - 5-8 hours",
     "date": "2024-12-25",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Data Migration(Vsupport): Project Module"
   },
   {
     "title": "W15 - 9-12 hours",
     "date": "2024-12-26",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "UAT Bug Fix"
   },
   {
     "title": "W15 - 13-16 hours",
     "date": "2024-12-27",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Data Migration(Vorder): Quotation & Invoice Module"
   },
   {
     "title": "W15 - 17-20 hours",
     "date": "2024-12-30",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Data Migration(Vorder): Invoice & Split Invoice Module"
   },
   {
     "title": "W16 - 1-4 hours",
     "date": "2024-12-30",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Data Migration(Vorder): Invoice & Split Invoice Module"
   },
   {
     "title": "w16 - 5-8 hours",
