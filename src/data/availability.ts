@@ -430,15 +430,15 @@ export const availability = [
   {
     "title": "W13 - 9-12 hours",
     "date": "2024-12-17",
-    "startTime": "13:00",
-    "endTime": "17:00",
+    "startTime": "08:00",
+    "endTime": "12:00",
     "details": "Recurring Invoice CRUD"
   },
   {
     "title": "W13 - 13-16 hours",
     "date": "2024-12-17",
-    "startTime": "12:00",
-    "endTime": "16:00",
+    "startTime": "13:00",
+    "endTime": "17:00",
     "details": "Recurring Invoice CRUD"
   },
   {
@@ -516,49 +516,49 @@ export const availability = [
     "date": "2024-12-30",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": "Data Migration(Vorder): Invoice & Split Invoice Module"
+    "details": "Dropdown, Client Quotation List Tab"
   },
   {
     "title": "W16 - 1-4 hours",
     "date": "2024-12-30",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": "Data Migration(Vorder): Invoice & Split Invoice Module"
+    "details": "Client Quotation List Tab"
   },
   {
-    "title": "w16 - 5-8 hours",
+    "title": "W16 - 5-8 hours",
     "date": "2024-12-31",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Client Invoice List Tab, Project Payment To Vendor Number Format"
   },
   {
-    "title": "w16 - 9-12 hours",
+    "title": "W16 - 9-12 hours",
     "date": "2024-12-31",
-    "startTime": "08:00",
-    "endTime": "12:00",
-    "details": ""
-  },
-  {
-    "title": "w16 - 13-16 hours",
-    "date": "2025-01-01",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Client Project List Tab, UAT Test Case"
   },
   {
-    "title": "w16 - 17-20 hours",
+    "title": "W16 - 13-16 hours",
+    "date": "2025-01-01",
+    "startTime": "09:00",
+    "endTime": "13:00",
+    "details": "Data Migration(Vsupport): Vendor & Payment To Vendor"
+  },
+  {
+    "title": "W16 - 17-20 hours",
     "date": "2025-01-02",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Data Migration(Vorder): Invoice Module"
   },
   {
     "title": "W17 - 1-4 hours",
     "date": "2025-01-03",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Data Migration(Vorder): Split Invoice Module"
   },
   {
     "title": "W17 - 5-8 hours",
@@ -588,12 +588,47 @@ export const availability = [
     "endTime": "12:00",
     "details": ""
   },
+  {
+    "title": "W18 - 1-4 hours",
+    "date": "2025-01-09",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W18 - 5-8 hours",
+    "date": "2025-01-10",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W18 - 9-12 hours",
+    "date": "2025-01-13",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W18 - 13-16 hours",
+    "date": "2025-01-13",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W18 - 17-20 hours",
+    "date": "2025-01-14",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
 ];
 
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 03 Jan 2024, there will be an accumulated of 11 days of leave remaining.",
+    "description": "Until 10 Jan 2024, there will be an accumulated of 12 days of leave remaining.",
     "type": "info",
     "date": "",
   },
