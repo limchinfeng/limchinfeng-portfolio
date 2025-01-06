@@ -551,28 +551,28 @@ export const availability = [
     "date": "2025-01-02",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": "Data Migration(Vorder): Invoice Module"
+    "details": "Index Query & Localhost System Checking"
   },
   {
     "title": "W17 - 1-4 hours",
     "date": "2025-01-03",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": "Data Migration(Vorder): Split Invoice Module"
+    "details": "Recurring Invoice Tag in Invoice Index Page & Staging System Checking"
   },
   {
     "title": "W17 - 5-8 hours",
     "date": "2025-01-06",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Payment To Vendor Script Fixing & Fixing Old User Manual"
   },
   {
     "title": "W17 - 9-12 hours",
     "date": "2025-01-06",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Project n Recurring Invoice User Manual"
   },
   {
     "title": "W17 - 13-16 hours",
