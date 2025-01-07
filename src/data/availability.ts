@@ -572,53 +572,88 @@ export const availability = [
     "date": "2025-01-06",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": "Project n Recurring Invoice User Manual"
+    "details": "System Bug Fixing Before UAT"
   },
   {
     "title": "W17 - 13-16 hours",
     "date": "2025-01-07",
-    "startTime": "13:00",
-    "endTime": "17:00",
-    "details": ""
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Recurring Invoice Module User Manual"
   },
   {
     "title": "W17 - 17-20 hours",
+    "date": "2025-01-07",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Project Module User Manual"
+  },
+  {
+    "title": "W18 - 1-4 hours",
     "date": "2025-01-08",
     "startTime": "08:00",
     "endTime": "12:00",
     "details": ""
   },
   {
-    "title": "W18 - 1-4 hours",
-    "date": "2025-01-09",
-    "startTime": "13:00",
-    "endTime": "17:00",
-    "details": ""
-  },
-  {
     "title": "W18 - 5-8 hours",
-    "date": "2025-01-10",
+    "date": "2025-01-08",
     "startTime": "13:00",
     "endTime": "17:00",
     "details": ""
   },
   {
     "title": "W18 - 9-12 hours",
-    "date": "2025-01-13",
+    "date": "2025-01-09",
     "startTime": "08:00",
     "endTime": "12:00",
     "details": ""
   },
   {
     "title": "W18 - 13-16 hours",
-    "date": "2025-01-13",
+    "date": "2025-01-10",
     "startTime": "13:00",
     "endTime": "17:00",
     "details": ""
   },
   {
     "title": "W18 - 17-20 hours",
+    "date": "2025-01-13",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W19 - 1-4 hours",
+    "date": "2025-01-13",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W19 - 5-8 hours",
     "date": "2025-01-14",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W19 - 9-12 hours",
+    "date": "2025-01-15",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W19 - 13-16 hours",
+    "date": "2025-01-16",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W19 - 17-20 hours",
+    "date": "2025-01-17",
     "startTime": "13:00",
     "endTime": "17:00",
     "details": ""
@@ -628,7 +663,7 @@ export const availability = [
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 10 Jan 2024, there will be an accumulated of 12 days of leave remaining.",
+    "description": "Until 17 Jan 2024, there will be an accumulated of 15 days of leave remaining.",
     "type": "info",
     "date": "",
   },
