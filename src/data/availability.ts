@@ -593,28 +593,28 @@ export const availability = [
     "date": "2025-01-08",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Migration: Vsupport Recurring Invoice"
   },
   {
     "title": "W18 - 5-8 hours",
     "date": "2025-01-08",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Migration: Vsupport Recurring Invoice"
   },
   {
     "title": "W18 - 9-12 hours",
     "date": "2025-01-09",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Migration: Vorder Recurring Invoice"
   },
   {
     "title": "W18 - 13-16 hours",
     "date": "2025-01-10",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Migration: Vorder "
   },
   {
     "title": "W18 - 17-20 hours",
@@ -646,14 +646,49 @@ export const availability = [
   },
   {
     "title": "W19 - 13-16 hours",
-    "date": "2025-01-16",
+    "date": "2025-01-09",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Migration: Vorder Invoice & Checking"
+  },
+  {
+    "title": "W19 - 17-20 hours",
+    "date": "2025-01-10",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Migration: Vorder "
+  },
+  {
+    "title": "W20 - 1-4 hours",
+    "date": "2025-01-17",
     "startTime": "13:00",
     "endTime": "17:00",
     "details": ""
   },
   {
-    "title": "W19 - 17-20 hours",
-    "date": "2025-01-17",
+    "title": "W20 - 5-8 hours",
+    "date": "2025-01-20",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W20 - 9-12 hours",
+    "date": "2025-01-21",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W20 - 13-16 hours",
+    "date": "2025-01-22",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W20 - 17-20 hours",
+    "date": "2025-01-23",
     "startTime": "13:00",
     "endTime": "17:00",
     "details": ""
@@ -663,7 +698,7 @@ export const availability = [
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 17 Jan 2024, there will be an accumulated of 15 days of leave remaining.",
+    "description": "Until 24 Jan 2024, there will be an accumulated of 15 days of leave remaining.",
     "type": "info",
     "date": "",
   },
