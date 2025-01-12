@@ -2,10 +2,14 @@ export const CVWorkingExperiences = [
   {
     company: "Veecotech Solution Sdn Bhd",
     image: "/image/cv/veecotech.svg",
-    position: "Software Developer Intern",
+    position: "Software Developer Intern & Part Time",
     duration: "Mar 2024 - Present",
-    tags: ["Fullstack", "Laravel", "PHP", "MySQL", "Next JS", "React", "Typescript", "React Native", "Tailwind CSS", "Selenium", "Laravel Dusk"],
+    tags: ["Fullstack", "Laravel", "Alpine.js", "PHP", "MySQL", "Next JS", "React", "Typescript", "React Native", "Tailwind CSS", "Selenium", "Laravel Dusk"],
     scopes: [
+      {
+        title: "Full Stack Internal System Modernization",
+        description: "Participated in the development of a full-stack application by modernizing an old legacy system and integrating it with an e-invoicing middleware, streamlining invoicing processes and enhancing operational efficiency",
+      },
       {
         title: "Enhanced Landing Pages",
         description: "Led creation and optimization for improved user engagement and conversions",
