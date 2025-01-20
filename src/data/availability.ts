@@ -614,35 +614,35 @@ export const availability = [
     "date": "2025-01-10",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": "Migration: Vorder "
+    "details": "Migration: Vorder Remaining Migration"
   },
   {
     "title": "W18 - 17-20 hours",
     "date": "2025-01-13",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Timestamp to all migration"
   },
   {
     "title": "W19 - 1-4 hours",
     "date": "2025-01-13",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "UAT Item Sorting Fix"
   },
   {
     "title": "W19 - 5-8 hours",
     "date": "2025-01-14",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Payment Error Message Model & FAT Test Sheet Compile"
   },
   {
     "title": "W19 - 9-12 hours",
     "date": "2025-01-15",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Disable button when term percentage is not 100"
   },
   {
     "title": "W19 - 13-16 hours",
@@ -656,21 +656,21 @@ export const availability = [
     "date": "2025-01-10",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": "Migration: Vorder "
+    "details": "Migration: Vorder Remaining Migration"
   },
   {
     "title": "W20 - 1-4 hours",
     "date": "2025-01-17",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Temporary ignore Submit to LHDN"
   },
   {
     "title": "W20 - 5-8 hours",
     "date": "2025-01-20",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Final checking on staging"
   },
   {
     "title": "W20 - 9-12 hours",
