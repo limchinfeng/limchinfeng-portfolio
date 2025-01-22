@@ -677,18 +677,88 @@ export const availability = [
     "date": "2025-01-21",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W20 - 13-16 hours",
     "date": "2025-01-22",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W20 - 17-20 hours",
     "date": "2025-01-23",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W21 - 1-4 hours",
+    "date": "2025-01-24",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W21 - 5-8 hours",
+    "date": "2025-01-27",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W21 - 9-12 hours",
+    "date": "2025-02-03",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W21 - 13-16 hours",
+    "date": "2025-02-04",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W21 - 17-20 hours",
+    "date": "2025-02-05",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W22 - 1-4 hours",
+    "date": "2025-02-06",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W22 - 5-8 hours",
+    "date": "2025-02-07",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W22 - 9-12 hours",
+    "date": "2025-02-10",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W22 - 13-16 hours",
+    "date": "2025-02-11",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W22 - 17-20 hours",
+    "date": "2025-02-12",
     "startTime": "13:00",
     "endTime": "17:00",
     "details": ""
@@ -698,7 +768,7 @@ export const availability = [
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 24 Jan 2024, there will be an accumulated of 15 days of leave remaining.",
+    "description": "Until 7 Feb 2024, there will be an accumulated of 12 days of leave remaining.",
     "type": "info",
     "date": "",
   },
