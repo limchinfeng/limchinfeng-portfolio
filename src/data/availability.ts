@@ -698,14 +698,14 @@ export const availability = [
     "date": "2025-01-24",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W21 - 5-8 hours",
     "date": "2025-01-27",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W21 - 9-12 hours",
@@ -758,17 +758,17 @@ export const availability = [
   },
   {
     "title": "W22 - 17-20 hours",
-    "date": "2025-02-12",
+    "date": "2025-01-24",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
 ];
 
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 7 Feb 2024, there will be an accumulated of 12 days of leave remaining.",
+    "description": "Until 7 Feb 2024, there will be an accumulated of 13 days of leave remaining.",
     "type": "info",
     "date": "",
   },
