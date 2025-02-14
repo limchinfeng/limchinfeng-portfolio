@@ -712,49 +712,49 @@ export const availability = [
     "date": "2025-02-03",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W21 - 13-16 hours",
     "date": "2025-02-04",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W21 - 17-20 hours",
     "date": "2025-02-05",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W22 - 1-4 hours",
     "date": "2025-02-06",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W22 - 5-8 hours",
     "date": "2025-02-07",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W22 - 9-12 hours",
     "date": "2025-02-10",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Payment Verification Enahncement"
   },
   {
     "title": "W22 - 13-16 hours",
     "date": "2025-02-11",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Payment Verification Enahncement"
   },
   {
     "title": "W22 - 17-20 hours",
@@ -763,12 +763,82 @@ export const availability = [
     "endTime": "17:00",
     "details": "Bug Fixing"
   },
+  {
+    "title": "W23 - 1-4 hours",
+    "date": "2025-02-12",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W23 - 5-8 hours",
+    "date": "2025-02-13",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Split Invoice Refno Fixing"
+  },
+  {
+    "title": "W23 - 9-12 hours",
+    "date": "2025-02-14",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W23 - 13-16 hours",
+    "date": "2025-02-17",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W23 - 17-20 hours",
+    "date": "2025-01-18",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W24 - 1-4 hours",
+    "date": "2025-02-19",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W24 - 5-8 hours",
+    "date": "2025-02-20",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W24 - 9-12 hours",
+    "date": "2025-02-24",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W24 - 13-16 hours",
+    "date": "2025-02-25",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W24 - 17-20 hours",
+    "date": "2025-01-26",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
 ];
 
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 7 Feb 2024, there will be an accumulated of 13 days of leave remaining.",
+    "description": "Until 21 Feb 2024, there will be an accumulated of 12 days of leave remaining.",
     "type": "info",
     "date": "",
   },
