@@ -793,7 +793,7 @@ export const availability = [
   },
   {
     "title": "W23 - 17-20 hours",
-    "date": "2025-01-18",
+    "date": "2025-02-18",
     "startTime": "08:00",
     "endTime": "12:00",
     "details": ""
