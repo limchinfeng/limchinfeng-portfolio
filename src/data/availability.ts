@@ -803,28 +803,28 @@ export const availability = [
     "date": "2025-02-19",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W24 - 5-8 hours",
     "date": "2025-02-20",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W24 - 9-12 hours",
     "date": "2025-02-24",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W24 - 13-16 hours",
     "date": "2025-02-25",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W24 - 17-20 hours",
@@ -833,12 +833,47 @@ export const availability = [
     "endTime": "17:00",
     "details": "Bug Fixing"
   },
+  {
+    "title": "W25 - 1-4 hours",
+    "date": "2025-02-26",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W25 - 5-8 hours",
+    "date": "2025-02-27",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W25 - 9-12 hours",
+    "date": "2025-02-28",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W25 - 13-16 hours",
+    "date": "2025-02-28",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W25 - 17-20 hours",
+    "date": "2025-03-06",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
 ];
 
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 21 Feb 2024, there will be an accumulated of 13 days of leave remaining.",
+    "description": "Until 7 Mar 2025, there will be an accumulated of 10 days of leave remaining.",
     "type": "info",
     "date": "",
   },
