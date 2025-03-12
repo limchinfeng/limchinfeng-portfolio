@@ -866,6 +866,76 @@ export const availability = [
     "date": "2025-03-06",
     "startTime": "13:00",
     "endTime": "17:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W26 - 1-4 hours",
+    "date": "2025-03-07",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W26 - 5-8 hours",
+    "date": "2025-03-10",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W26 - 9-12 hours",
+    "date": "2025-03-11",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W26 - 13-16 hours",
+    "date": "2025-03-12",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Client Report"
+  },
+  {
+    "title": "W26 - 17-20 hours",
+    "date": "2025-03-13",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W27 - 1-4 hours",
+    "date": "2025-03-14",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W27 - 5-8 hours",
+    "date": "2025-03-17",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W27 - 9-12 hours",
+    "date": "2025-03-18",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W27 - 13-16 hours",
+    "date": "2025-03-19",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W27 - 17-20 hours",
+    "date": "2025-03-20",
+    "startTime": "13:00",
+    "endTime": "17:00",
     "details": ""
   },
 ];
@@ -873,7 +943,7 @@ export const availability = [
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 7 Mar 2025, there will be an accumulated of 10 days of leave remaining.",
+    "description": "Until 15 Mar 2025, there will be an accumulated of 11 days of leave remaining.",
     "type": "info",
     "date": "",
   },
