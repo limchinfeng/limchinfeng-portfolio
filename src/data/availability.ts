@@ -901,39 +901,109 @@ export const availability = [
     "date": "2025-03-13",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W27 - 1-4 hours",
     "date": "2025-03-14",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W27 - 5-8 hours",
     "date": "2025-03-17",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W27 - 9-12 hours",
     "date": "2025-03-18",
     "startTime": "08:00",
     "endTime": "12:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W27 - 13-16 hours",
     "date": "2025-03-19",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Bug Fixing"
   },
   {
     "title": "W27 - 17-20 hours",
     "date": "2025-03-20",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Bug Fixing"
+  },
+  {
+    "title": "W28 - 1-4 hours",
+    "date": "2025-03-21",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "SEO Report"
+  },
+  {
+    "title": "W28 - 5-8 hours",
+    "date": "2025-03-21",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "SEO Report"
+  },
+  {
+    "title": "W28 - 9-12 hours",
+    "date": "2025-03-24",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Revert Button"
+  },
+  {
+    "title": "W28 - 13-16 hours",
+    "date": "2025-03-25",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W28 - 17-20 hours",
+    "date": "2025-03-26",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W29 - 1-4 hours",
+    "date": "2025-03-27",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W29 - 5-8 hours",
+    "date": "2025-04-07",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W29 - 9-12 hours",
+    "date": "2025-04-08",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": ""
+  },
+  {
+    "title": "W29 - 13-16 hours",
+    "date": "2025-04-09",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": ""
+  },
+  {
+    "title": "W29 - 17-20 hours",
+    "date": "2025-04-10",
     "startTime": "13:00",
     "endTime": "17:00",
     "details": ""
@@ -943,7 +1013,7 @@ export const availability = [
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 15 Mar 2025, there will be an accumulated of 11 days of leave remaining.",
+    "description": "Until 5 Apr 2025, there will be an accumulated of 6 days of leave remaining.",
     "type": "info",
     "date": "",
   },
