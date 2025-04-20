@@ -1003,17 +1003,87 @@ export const availability = [
   },
   {
     "title": "W29 - 17-20 hours",
-    "date": "2025-04-8",
+    "date": "2025-04-09",
     "startTime": "13:00",
     "endTime": "17:00",
-    "details": ""
+    "details": "Commission"
+  },
+  {
+    "title": "W30 - 1-4 hours",
+    "date": "2025-04-10",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W30 - 5-8 hours",
+    "date": "2025-04-10",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W30 - 9-12 hours",
+    "date": "2025-04-11",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W30 - 13-16 hours",
+    "date": "2025-04-11",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W30 - 17-20 hours",
+    "date": "2025-04-14",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W31 - 1-4 hours",
+    "date": "2025-04-15",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W31 - 5-8 hours",
+    "date": "2025-04-16",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W31 - 9-12 hours",
+    "date": "2025-04-17",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W31 - 13-16 hours",
+    "date": "2025-04-18",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W31 - 17-20 hours",
+    "date": "2025-04-21",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
   },
 ];
 
 export const announcements = [
   {
     "title": "Remaining Leave",
-    "description": "Until 5 Apr 2025, there will be an accumulated of 9 days of leave remaining.",
+    "description": "Until 19 Apr 2025, there will be an accumulated of 9 days of leave remaining.",
     "type": "info",
     "date": "",
   },
