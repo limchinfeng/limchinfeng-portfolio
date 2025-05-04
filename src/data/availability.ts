@@ -1078,6 +1078,76 @@ export const availability = [
     "endTime": "12:00",
     "details": "Commission"
   },
+  {
+    "title": "W32 - 1-4 hours",
+    "date": "2025-04-22",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W32 - 5-8 hours",
+    "date": "2025-04-23",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W32 - 9-12 hours",
+    "date": "2025-04-24",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W32 - 13-16 hours",
+    "date": "2025-04-25",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W32 - 17-20 hours",
+    "date": "2025-04-28",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W33 - 1-4 hours",
+    "date": "2025-04-29",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W33 - 5-8 hours",
+    "date": "2025-04-30",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W33 - 9-12 hours",
+    "date": "2025-05-01",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W33 - 13-16 hours",
+    "date": "2025-05-02",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "details": "Commission"
+  },
+  {
+    "title": "W33 - 17-20 hours",
+    "date": "2025-05-05",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
 ];
 
 export const announcements = [
