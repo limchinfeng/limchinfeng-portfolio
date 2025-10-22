@@ -1148,6 +1148,13 @@ export const availability = [
     "endTime": "12:00",
     "details": "Commission"
   },
+  {
+    "title": "W33 - 17-20 hours",
+    "date": "2025-05-05",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "details": "Commission"
+  },
 ];
 
 export const announcements = [
