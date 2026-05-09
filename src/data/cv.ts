@@ -1,9 +1,50 @@
 export const CVWorkingExperiences = [
+    {
+    company: "Ant International",
+    image: "/image/cv/ant-international.webp",
+    position: "Software Engineer (Java Backend)",
+    duration: "Oct 2025 - Present",
+    tags: ["Java", "Microservices", "Distributed Systems", "Middleware", "RPC", "ZDAL", "Message Brokers", "Scheduler", "DRM", "CI/CD"],
+    scopes: [
+      {
+        title: "Java Microservices Development",
+        description: "Built and maintained Java microservices in a distributed architecture, supporting high-availability systems handling more than 10k API requests per hour.",
+      },
+      {
+        title: "Sign-in Play Feature",
+        description: "Developed a feature enabling B-side administrators to configure and manage campaign workflows, reducing configuration errors by 25%.",
+      },
+      {
+        title: "Adaptive Layer Ownership",
+        description: "Owned and maintained the adaptive layer, coordinating integration across more than 5 microservices, reducing duplicated base logic and improving development efficiency by 30%.",
+      },
+      {
+        title: "Backward-Compatible Enhancements",
+        description: "Implemented backward-compatible enhancements, minimizing breaking changes and improving system stability across dependent services.",
+      },
+      {
+        title: "Middleware & Distributed Systems",
+        description: "Worked with middleware and distributed system components including RPC, ZDAL, message brokers, schedulers, and DRM to support scalable and reliable microservices architecture.",
+      },
+      {
+        title: "Production Incident Response",
+        description: "Involved in production incident response, reducing mean time to resolution (MTTR) by 35% through effective debugging and root cause analysis.",
+      },
+      {
+        title: "Technical Support",
+        description: "Provided technical support for C-side users, resolving more than 90% of production and user-reported issues within service-layer agreement.",
+      },
+      {
+        title: "System Analysis & Deployment",
+        description: "Performed system analysis with comprehensive documentation of change requirements, followed by development, unit and integration testing, release planning, and production deployment via internal CI/CD pipelines.",
+      },
+    ]
+  },
   {
     company: "Veecotech Solution Sdn Bhd",
     image: "/image/cv/veecotech.svg",
     position: "Software Developer Intern & Part Time",
-    duration: "Mar 2024 - Present",
+    duration: "Mar 2024 - Aug 2025",
     tags: ["Fullstack", "Laravel", "Alpine.js", "PHP", "MySQL", "Next JS", "React", "Typescript", "React Native", "Tailwind CSS", "Selenium", "Laravel Dusk"],
     scopes: [
       {
